@@ -11,29 +11,29 @@ features:
           sdk-generation-stage-name: Development
         paths:
           /items: !com.amazonaws.mobilehub.v0.Function 
-            codeFilename: uploads/crud-lambda.zip
+            codeFilename: uploads/itemsHandler-20180309170905.zip
             description: 'Handler for calls to resource path : /items/{proxy+}'
             environment: {}
             handler: index.handler
-            hashcode: Q9z5KflU4j2BeJrdetRjRaGqjr0gFnLpVoUGjvKhgAo=
+            hashcode: fJD5KHMJA6FohCTs8Rep8GfESQjpnQDGS1jIIKQw/SA=
             memorySize: '128'
-            modified: '2018-03-09T22:14:11.621+0000'
+            modified: '2018-03-10T01:09:36.612+0000'
             name: itemsHandler
             runtime: nodejs6.10
             timeout: '3'
-            version: avDKsY295CWGwPjGFVe5Kl6DsdBlNkyT
+            version: xRrm1ZjPtXdVj09WkT35BCBndEKnfbGB
           '/items/{proxy+}': !com.amazonaws.mobilehub.v0.Function 
-            codeFilename: uploads/crud-lambda.zip
+            codeFilename: uploads/itemsHandler-20180309170905.zip
             description: 'Handler for calls to resource path : /items/{proxy+}'
             environment: {}
             handler: index.handler
-            hashcode: Q9z5KflU4j2BeJrdetRjRaGqjr0gFnLpVoUGjvKhgAo=
+            hashcode: fJD5KHMJA6FohCTs8Rep8GfESQjpnQDGS1jIIKQw/SA=
             memorySize: '128'
-            modified: '2018-03-09T22:14:11.621+0000'
+            modified: '2018-03-10T01:09:36.612+0000'
             name: itemsHandler
             runtime: nodejs6.10
             timeout: '3'
-            version: VVON83LHDEIfoi3uLrLQ7Y3M1I7hRDDM
+            version: MC12X.PJx_VIW34ZIAkdNQD4jXRnH5I7
   content-delivery: !com.amazonaws.mobilehub.v0.ContentDelivery 
     attributes:
       enabled: true
